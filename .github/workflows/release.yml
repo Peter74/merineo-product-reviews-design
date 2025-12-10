@@ -1,0 +1,43 @@
+name: Build and release WordPress plugin
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set plugin slug and version
+        run: |
+          PLUGIN_SLUG="merineo-product-reviews-design"
+          VERSION="${GITHUB_REF_NAME#v}"
+          ZIP_NAME="${PLUGIN_SLUG}-v${VERSION}.zip"
+
+          echo "PLUGIN_SLUG=$PLUGIN_SLUG" >> $GITHUB_ENV
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          echo "ZIP_NAME=$ZIP_NAME" >> $GITHUB_ENV
+
+      - name: Build plugin zip
+        run: |
+          git archive \
+            --format=zip \
+            --output="$ZIP_NAME" \
+            --prefix="${PLUGIN_SLUG}/" \
+            HEAD
+
+      - name: Create GitHub release with zip
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: v${{ env.VERSION }}
+          files: ${{ env.ZIP_NAME }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

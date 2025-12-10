@@ -1,0 +1,84 @@
+/* Basic, professional review styling */
+
+.woocommerce #reviews #comments ol.commentlist li {
+    margin: 1.5rem 0;
+    padding: 1.25rem 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid var(--merineo-prd-reviews-border, #e5e7eb);
+    background-color: var(--merineo-prd-reviews-bg, #ffffff);
+    color: var(--merineo-prd-reviews-text, #111827);
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+}
+
+.woocommerce #reviews #comments .comment_container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.woocommerce #reviews #comments .comment-text {
+    margin: 0;
+}
+
+.woocommerce #reviews #comments .star-rating {
+    color: var(--merineo-prd-reviews-accent, #fbbf24);
+}
+
+/* Image grid */
+.merineo-review-images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+.merineo-review-image {
+    display: block;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    border: 1px solid var(--merineo-prd-reviews-border, #e5e7eb);
+}
+
+.merineo-review-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.18s ease, filter 0.18s ease;
+}
+
+.merineo-review-image:hover img {
+    transform: scale(1.03);
+    filter: brightness(1.03);
+}
+
+/* Review form toggle */
+.merineo-review-form-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.6rem 1.1rem;
+    border-radius: 9999px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--merineo-prd-reviews-primary, #5070ff);
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.merineo-review-form-toggle-btn:focus-visible {
+    outline: 2px solid var(--merineo-prd-reviews-accent, #fbbf24);
+    outline-offset: 2px;
+}
+
+.merineo-review-form-collapsed {
+    display: none;
+}
+
+@media (max-width: 640px) {
+    .woocommerce #reviews #comments .comment_container {
+        grid-template-columns: 1fr;
+    }
+}
