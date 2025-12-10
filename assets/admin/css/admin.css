@@ -1,0 +1,172 @@
+/**
+ * Toggle styles for Merineo Product Reviews Dizajn admin.
+ *
+ * Keeps native checkbox for accessibility, but visually renders as a switch.
+ */
+
+.merineo-toggle {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.merineo-toggle input {
+    display: none;
+}
+
+.merineo-toggle-slider {
+    width: 48px;
+    height: 24px;
+    background: #ccd0d4;
+    border-radius: 999px;
+    position: relative;
+    transition: background 0.2s;
+}
+
+.merineo-toggle-slider::after {
+    content: "";
+    position: absolute;
+    inset: 3px auto auto 3px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #fff;
+    transition: left 0.2s;
+}
+
+.merineo-toggle input:checked + .merineo-toggle-slider {
+    background: #2271b1;
+}
+
+.merineo-toggle input:checked + .merineo-toggle-slider::after {
+    left: 27px;
+}
+
+.merineo-comment-images-column {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.merineo-comment-images-status {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 6px;
+    border-radius: 9999px;
+    font-size: 11px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.merineo-comment-images-status--approved {
+    background-color: #dcfce7;
+    color: #166534;
+}
+
+.merineo-comment-images-status--pending {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.merineo-comment-images-thumbs {
+    display: flex;
+    gap: 4px;
+    flex-wrap: nowrap;
+}
+
+.merineo-comment-images-thumb-wrapper img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #d4d4d8;
+}
+
+/* Highlight thumbnails based on approval state in the comments/reviews list */
+.merineo-comment-images-status--approved + .merineo-comment-images-thumbs .merineo-comment-images-thumb-wrapper img {
+    border-color: #16a34a;            /* green border */
+    box-shadow: 0 0 0 1px #16a34a33;  /* subtle green ring */
+}
+
+.merineo-comment-images-status--pending + .merineo-comment-images-thumbs .merineo-comment-images-thumb-wrapper img {
+    border-color: #f59e0b;            /* amber border */
+    box-shadow: 0 0 0 1px #f59e0b33;
+    opacity: 0.9;
+}
+
+/* UI settings page styles */
+/* Root wrapper for Merineo Product Reviews settings page */
+.merineo-prd-reviews-settings-wrap {
+    /* max-width: 1100px; */
+}
+.merineo-prd-reviews-settings-wrap-inner {
+    max-width: 1100px;
+}
+
+/* Align heading a trochu priestoru */
+.merineo-prd-reviews-settings-wrap > h1 {
+    margin-bottom: 1.5rem;
+}
+
+/* A single settings section (card-like) */
+.merineo-prd-reviews-section {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.05);
+}
+
+/* Section title & description */
+.merineo-prd-reviews-section__title {
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+    font-size: 1.1rem;
+}
+
+.merineo-prd-reviews-section__description {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    max-width: 60rem;
+    color: #4b5563;
+}
+
+/* Remove default table spacing and let us control it */
+.merineo-prd-reviews-section__table {
+    margin-top: 0.5rem;
+}
+
+/* Tighter, čitateľnejšie riadky */
+.merineo-prd-reviews-section__table th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.merineo-prd-reviews-section__table td {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* Description text under field labels */
+.merineo-prd-reviews-section__table .description {
+    color: #6b7280;
+}
+
+/* Number inputs a text inputs v jednej šírke */
+.merineo-prd-reviews-section__table input[type="number"],
+.merineo-prd-reviews-section__table input[type="text"] {
+    min-width: 120px;
+}
+
+/* Select boxy – nech nie sú natiahnuté na celú šírku */
+.merineo-prd-reviews-section__table select {
+    min-width: 220px;
+}
+
+/* Color picker inputs – nech sú konzistentne veľké */
+.merineo-prd-reviews-section__table input[type="text"].merineo-color-field {
+    width: 110px;
+    max-width: 100%;
+}

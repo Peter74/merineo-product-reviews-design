@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Merineo Product Reviews Dizajn 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-10 20:43+0000\n"
+"PO-Revision-Date: 2025-12-10 21:46+0100\n"
+"Last-Translator: \n"
+"Language-Team: Slovak\n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 3.8\n"
+
+msgid "Allow images for guests"
+msgstr "Povoliť obrázky pre hostí"
+
+msgid "Allow images in reviews"
+msgstr "Povoliť obrázky v recenziách"
+
+msgid "Allow non-logged-in customers to upload images in reviews."
+msgstr "Povoliť neprihláseným zákazníkom nahrávať obrázky v recenziách."
+
+msgid "Allow up to 3 images per review (jpg, jpeg, png, webp)."
+msgstr "Povoliť maximálne 3 obrázky na jednu recenziu (jpg, jpeg, png, webp)."
+
+msgid "Approved"
+msgstr "Schválené"
+
+msgid "Border color"
+msgstr "Farba okraja"
+
+msgid "Break comments into pages"
+msgstr "Rozdeliť komentáre na stránky"
+
+msgid "Close"
+msgstr "Zavrieť"
+
+msgid "Colors"
+msgstr "Farby"
+
+msgid "Comment pagination"
+msgstr "Stránkovanie komentárov"
+
+msgid "Comments on each page should be displayed with"
+msgstr "Komentáre na každej stránke majú byť zobrazené s"
+
+msgid "Comments per page"
+msgstr "Komentárov na stránku"
+
+msgid "Default comments page"
+msgstr "Predvolená stránka komentárov"
+
+msgid "Enable product reviews (WooCommerce)"
+msgstr "Zapnúť recenzie produktov (WooCommerce)"
+
+msgid "Enable reviews for products (same as WooCommerce → Settings → Products → Reviews)."
+msgstr "Zapnúť recenzie pre produkty (rovnaké ako WooCommerce → Nastavenia → Produkty → Recenzie)."
+
+msgid "First page (oldest comments)"
+msgstr "Prvá stránka (najstaršie komentáre)"
+
+msgid "General"
+msgstr "Všeobecné"
+
+msgid "If left empty, colors are derived from the active theme (theme.json) or sensible defaults."
+msgstr "Ak zostanú prázdne, farby sa prevezmú z aktívnej témy (theme.json) alebo sa použijú predvolené hodnoty."
+
+msgid "Images approved and visible on the product page."
+msgstr "Obrázky sú schválené a viditeľné na stránke produktu."
+
+msgid "Images are hidden until explicitly approved in the comment edit screen."
+msgstr "Obrázky sú skryté, kým nie sú schválené v editácii komentára."
+
+msgid "Last page (newest comments)"
+msgstr "Posledná stránka (najnovšie komentáre)"
+
+msgid "Merineo"
+msgstr "Merineo"
+
+msgid "Merineo Product Reviews Dizajn"
+msgstr "Merineo Product Reviews Dizajn"
+
+msgid "Merineo Settings"
+msgstr "Nastavenia Merineo"
+
+msgid "Newer comments at the top"
+msgstr "Novšie komentáre hore"
+
+msgid "Next image"
+msgstr "Nasledujúci obrázok"
+
+msgid "No images attached to this review."
+msgstr "K tejto recenzii nie sú pripojené žiadne obrázky."
+
+msgid "Number of top-level comments to display per page."
+msgstr "Počet komentárov prvej úrovne na stránku."
+
+msgid "Older comments at the top"
+msgstr "Staršie komentáre hore"
+
+msgid "Paginate comments (including product reviews)."
+msgstr "Stránkovať komentáre (vrátane recenzií produktov)."
+
+msgid "Pending images"
+msgstr "Obrázky čakajúce na schválenie"
+
+msgid "Previous image"
+msgstr "Predchádzajúci obrázok"
+
+msgid "Primary accent"
+msgstr "Primárna zvýrazňujúca farba"
+
+msgid "Product Reviews Dizajn"
+msgstr "Product Reviews Dizajn"
+
+msgid "Require image approval"
+msgstr "Vyžadovať schvaľovanie obrázkov"
+
+msgid "Review background"
+msgstr "Pozadie recenzie"
+
+msgid "Review images"
+msgstr "Obrázky recenzie"
+
+msgid "Review images (Merineo)"
+msgstr "Obrázky recenzie (Merineo)"
+
+msgid "Review images (up to 3 files, JPG/PNG/WebP, max 1.2MB each)"
+msgstr "Obrázky recenzie (max. 3 súbory JPG/PNG/WebP, každý max. 1,2 MB)"
+
+msgid "Settings saved."
+msgstr "Nastavenia boli uložené."
+
+msgid "Show the website/URL field in the product review form."
+msgstr "Zobraziť pole web/URL vo formulári recenzie produktu."
+
+msgid "Star / badge color"
+msgstr "Farba hviezdičiek / odznaku"
+
+msgid "Subdirectory inside the uploads folder where review images are stored."
+msgstr "Podpriečinok v adresári uploads, kam sa ukladajú obrázky recenzií."
+
+msgid "Text color"
+msgstr "Farba textu"
+
+msgid "These settings mirror the WordPress Discussion settings and affect how product reviews are paginated."
+msgstr "Tieto nastavenia kopírujú nastavenia Diskusia vo WordPresse a ovplyvňujú stránkovanie recenzií produktov."
+
+msgid "Upload subdirectory"
+msgstr "Podpriečinok pre nahrávanie"
+
+msgid "Use the submenu pages for specific Merineo plugins."
+msgstr "Použiť podstránky pre konkrétne pluginy Merineo."
+
+msgid "Website field in reviews"
+msgstr "Pole webu v recenziách"
+
+msgid "WooCommerce must be active to use Merineo Product Reviews Dizajn."
+msgstr "Na použitie Merineo Product Reviews Dizajn musí byť aktivovaný WooCommerce."

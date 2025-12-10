@@ -25,7 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // Global debug flags shared across Merineo plugins.
 if ( ! defined( 'MERINEO_DEBUG' ) ) {
-    define( 'MERINEO_DEBUG', false );
+    define( 'MERINEO_DEBUG', true );
 }
 if ( ! defined( 'MERINEO_DEBUG_GLOBAL' ) ) {
     define( 'MERINEO_DEBUG_GLOBAL', false );
@@ -36,6 +36,21 @@ define( 'WP_MERINEO_PRD_REVIEWS_VERSION', '1.0.0' );
 define( 'WP_MERINEO_PRD_REVIEWS_FILE', __FILE__ );
 define( 'WP_MERINEO_PRD_REVIEWS_PATH', plugin_dir_path( __FILE__ ) );
 define( 'WP_MERINEO_PRD_REVIEWS_URL', plugin_dir_url( __FILE__ ) );
+
+/**
+ * Load plugin textdomain on plugins_loaded.
+ *
+ * @see https://developer.wordpress.org/reference/functions/load_plugin_textdomain/
+ */
+add_action( 'plugins_loaded', 'merineo_prd_reviews_load_textdomain' );
+
+function merineo_prd_reviews_load_textdomain(): void {
+    load_plugin_textdomain(
+        'merineo-product-reviews-design',
+        false,
+        dirname( plugin_basename( __FILE__ ) ) . '/languages'
+    );
+}
 
 // HPOS compatibility. See https://woocommerce.com/document/high-performance-order-storage-custom-tables/#section-5
 add_action(

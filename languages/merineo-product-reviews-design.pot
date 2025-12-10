@@ -1,0 +1,159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Merineo Product Reviews Dizajn 1.0.0\n"
+"POT-Creation-Date: 2025-12-10 20:43+0000\n"
+"PO-Revision-Date: 2025-12-10 20:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: ChatGPT\n"
+
+msgid "Allow images for guests"
+msgstr ""
+
+msgid "Allow images in reviews"
+msgstr ""
+
+msgid "Allow non-logged-in customers to upload images in reviews."
+msgstr ""
+
+msgid "Allow up to 3 images per review (jpg, jpeg, png, webp)."
+msgstr ""
+
+msgid "Approved"
+msgstr ""
+
+msgid "Border color"
+msgstr ""
+
+msgid "Break comments into pages"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Colors"
+msgstr ""
+
+msgid "Comment pagination"
+msgstr ""
+
+msgid "Comments on each page should be displayed with"
+msgstr ""
+
+msgid "Comments per page"
+msgstr ""
+
+msgid "Default comments page"
+msgstr ""
+
+msgid "Enable product reviews (WooCommerce)"
+msgstr ""
+
+msgid "Enable reviews for products (same as WooCommerce → Settings → Products → Reviews)."
+msgstr ""
+
+msgid "First page (oldest comments)"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "If left empty, colors are derived from the active theme (theme.json) or sensible defaults."
+msgstr ""
+
+msgid "Images approved and visible on the product page."
+msgstr ""
+
+msgid "Images are hidden until explicitly approved in the comment edit screen."
+msgstr ""
+
+msgid "Last page (newest comments)"
+msgstr ""
+
+msgid "Merineo"
+msgstr ""
+
+msgid "Merineo Product Reviews Dizajn"
+msgstr ""
+
+msgid "Merineo Settings"
+msgstr ""
+
+msgid "Newer comments at the top"
+msgstr ""
+
+msgid "Next image"
+msgstr ""
+
+msgid "No images attached to this review."
+msgstr ""
+
+msgid "Number of top-level comments to display per page."
+msgstr ""
+
+msgid "Older comments at the top"
+msgstr ""
+
+msgid "Paginate comments (including product reviews)."
+msgstr ""
+
+msgid "Pending images"
+msgstr ""
+
+msgid "Previous image"
+msgstr ""
+
+msgid "Primary accent"
+msgstr ""
+
+msgid "Product Reviews Dizajn"
+msgstr ""
+
+msgid "Require image approval"
+msgstr ""
+
+msgid "Review background"
+msgstr ""
+
+msgid "Review images"
+msgstr ""
+
+msgid "Review images (Merineo)"
+msgstr ""
+
+msgid "Review images (up to 3 files, JPG/PNG/WebP, max 1.2MB each)"
+msgstr ""
+
+msgid "Settings saved."
+msgstr ""
+
+msgid "Show the website/URL field in the product review form."
+msgstr ""
+
+msgid "Star / badge color"
+msgstr ""
+
+msgid "Subdirectory inside the uploads folder where review images are stored."
+msgstr ""
+
+msgid "Text color"
+msgstr ""
+
+msgid "These settings mirror the WordPress Discussion settings and affect how product reviews are paginated."
+msgstr ""
+
+msgid "Upload subdirectory"
+msgstr ""
+
+msgid "Use the submenu pages for specific Merineo plugins."
+msgstr ""
+
+msgid "Website field in reviews"
+msgstr ""
+
+msgid "WooCommerce must be active to use Merineo Product Reviews Dizajn."
+msgstr ""
