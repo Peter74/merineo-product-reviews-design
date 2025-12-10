@@ -1,0 +1,12 @@
+{
+  "name": "peter74/merineo-product-reviews-design",
+  "description": "Merineo Product Reviews Design",
+  "type": "project",
+  "version": "1.0.0",
+  "require-dev": {
+    "php-stubs/wordpress-stubs": "^6.6",
+    "php-stubs/woocommerce-stubs": "^8",
+    "php-stubs/wp-cli-stubs": "^2",
+    "szepeviktor/phpstan-wordpress": "^1"
+  }
+}
